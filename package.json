@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Self-hosted n8n automation on Render",
   "scripts": {
-    "start": "n8n"
+    "start": "n8n start --port $PORT --host 0.0.0.0"
   },
   "dependencies": {
     "n8n": "^1.108.2"
